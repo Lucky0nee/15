@@ -11,7 +11,7 @@ int main() {
 
 	for (int i = 0; i < arr.size(); i++) {
 		arr[i] = (rand() % 100 - 50) / 10.0;
-		cout << arr[i] << " ";
+		cout << arr[i] << ", ";
 
 		if (arr[i] < 0)
 			sum = sum + arr[i];

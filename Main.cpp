@@ -4,7 +4,6 @@
 using namespace std;
 
 int main() {
-
 	srand(time(NULL));
 	array<double, 10> arr;
 	double sum = 0;
